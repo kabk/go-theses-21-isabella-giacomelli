@@ -637,6 +637,7 @@ nav ul ul li {
     width: 99%;
     margin-left: 0.5%;
     margin-right: 0.5%;
+    overflow: hidden;
     /* margin-top: 8%; */
   }
 
