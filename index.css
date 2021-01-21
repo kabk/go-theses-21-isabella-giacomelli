@@ -160,7 +160,7 @@ table.Table td, table.Table th {
 }
 table.Table tbody td {
   font-size: 13px;
-  color: #000000;
+  color: black;
 }
 table.Table thead {
   background: #fff9e3;
@@ -168,8 +168,7 @@ table.Table thead {
 }
 table.Table thead th {
   font-size: 13px;
-  font-weight: bold;
-  color: #fff9e3;
+  color: black;
 }
 table.Table tfoot td {
   font-size: 14px;
@@ -358,7 +357,7 @@ table.Table tfoot td {
 }
 
 .active, .chapter:hover {
-  background-color: #ccc;
+  background-color: none;
 }
 
 .panel {
