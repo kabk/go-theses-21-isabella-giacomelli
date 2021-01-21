@@ -295,7 +295,7 @@ table.Table tfoot td {
 .slider {
   width: 100%;
   height: auto;
-  margin-left: 10%;
+  margin-left: 0%;
   display: flex;
   overflow-x: auto;
 }
@@ -313,7 +313,6 @@ table.Table tfoot td {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 7%;
 }
 
 .img-zoom-lens {
