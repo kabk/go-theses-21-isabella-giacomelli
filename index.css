@@ -334,15 +334,20 @@ table.Table tfoot td {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
+    margin-right: 10%
+    margin-left: 10%;
     height:0;
+    margin: auto;
 }
 .video-responsive iframe{
     left:0;
     top:0;
     height:100%;
     width:90%;
-    position:absolute;
-    margin: auto;
+    position: absolute;
+    margin-right: 10%
+    margin-left: 10%;
+    align-self: center;
 }
 
 .chapter {
