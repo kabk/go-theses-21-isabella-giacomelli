@@ -573,7 +573,6 @@ nav ul ul li {
   nav ul li {
 	  display: block;
 	}
-
   /* footnote popup */
 
   .footnote-ref a{
@@ -591,8 +590,8 @@ nav ul ul li {
     display: none;
     max-width: 100%;
     margin: 0 auto;
-    color: #fff9e3;
-    background-color: blue;
+    color: black;
+    background-color: white;
     border-top: 1px solid black;
   }
 
@@ -624,14 +623,6 @@ nav ul ul li {
   overflow: hidden;
   top: 0px;
 }
-
-/*.bg-left {
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(90deg, rgba(233, 233, 233, 0) 70%, rgb(254, 69, 213) 95%);
-  background: -webkit-linear-gradient(90deg, rgba(233, 233, 233, 0) 70%, rgb(254, 69, 213) 95%);
-  float: left;
-}*/
 
 
 /* //////////////////MOBILE VERSION 800 px////////////////// */
