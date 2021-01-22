@@ -147,11 +147,11 @@ table.Table {
   font-family: Arial Narrow,Arial,sans-serif; 
 /*  border: 1px solid #000000;*/
   background-color: #fff9e3;
-  padding: 5%;
   border-collapse: collapse;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -8%;
 }
 
 table.Table td, table.Table th {
@@ -573,6 +573,11 @@ nav ul ul li {
   nav ul li {
 	  display: block;
 	}
+
+/* FOOTNOTES
+
+
+
 
 /* //////////////////MOBILE VERSION 800 px////////////////// */
 
