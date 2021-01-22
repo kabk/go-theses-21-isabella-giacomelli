@@ -350,7 +350,7 @@ table.Table tfoot td {
     padding-bottom:56.25%;
     position:relative;
     margin-right: 10%
-    margin-left: 10%;
+    margin-left: 30%;
     height:0;
     margin: auto;
 }
@@ -361,8 +361,7 @@ table.Table tfoot td {
     width:90%;
     position: absolute;
     margin-right: 10%
-    margin-left: 10%;
-    align-self: center;
+    margin-left: 30%;
 }
 
 .chapter {
