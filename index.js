@@ -41,7 +41,6 @@ let changeHeading = (entries, observer) => {
     }
   });
 };
-
 function imageZoom(imgID, resultID) {
   var img, lens, result, cx, cy;
   img = document.getElementById(imgID);
@@ -95,14 +94,16 @@ function imageZoom(imgID, resultID) {
     x = x - window.pageXOffset;
     y = y - window.pageYOffset;
     return {x : x, y : y};
-  };
-};
+  }
+}
 
 $(document).ready(function(){
   $("button").click(function(){
     $("p").toggle();
   });
 });
+
+//------------------- chapters -------------------------
 
 var acc = document.getElementsByClassName("chapter");
 var i;
@@ -118,7 +119,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+//---------------------------------------------------
 
-
-// Initiate zoom effect:
 imageZoom("myimage", "myresult");

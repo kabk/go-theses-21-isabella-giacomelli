@@ -17,20 +17,50 @@ html, body {
   outline: none;
 }
 
+
+.img-zoom-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5%;
+}
+
+
+.img-zoom-lens {
+  position: absolute;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.scroll-image{
+overflow-x:scroll;
+}
+
+#myimage{
+  height:400px;
+  overflow-x:scroll;
+}
+
+.img-zoom-result {
+
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
+}
+
+
 .landingpage{
   height: 100vh;
   font-family: Wremena;
-}
-
-.landingpage{
   position: relative;
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
   padding: 20px;
   overflow: scroll;
-
 }
+
 
 .landingpage h1{
 margin-top: 20%;
@@ -87,6 +117,7 @@ h1 {
   font-size: 40px;
   text-indent: 0px;
   padding: 0%;
+  font-weight: 300;
 }
 
 h2 {
@@ -126,7 +157,6 @@ sup {
   font-family: Arial Narrow,Arial,sans-serif; 
   font-size: 23px;
   text-indent: 18px;
-  color: red;
 }
 
 .image-footnotes {
@@ -322,45 +352,30 @@ table.Table tfoot td {
   overflow-x: auto;
 }
 
+
 * {box-sizing: border-box; margin: auto;}
 
-.img-zoom-container {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.img-zoom-lens {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  /*set the size of the lens:*/
-  width: 40px;
-  height: 40px;
-}
 
-.img-zoom-result {
-  border: 1px solid #d4d4d4;
-  /*set the size of the result div:*/
-  width: 300px;
-  height: 300px;
-}
+
 
 .video-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    margin-right: 10%
+    margin-right: 10%;
     margin-left: 30%;
     height:0;
     margin: auto;
 }
+
 .video-responsive iframe{
     left:0;
     top:0;
     height:100%;
     width:90%;
     position: absolute;
-    margin-right: 10%
+    margin-right: 10%;
     margin-left: 30%;
 }
 
@@ -368,7 +383,6 @@ table.Table tfoot td {
   color:black;
   cursor: pointer;
   width: 100%;
-  margin-bottom: -10%;
   border: none;
   text-align: center;
   outline: none;
@@ -500,9 +514,7 @@ nav ul ul li {
     z-index: 800;
 	}
 
-	.toggle:hover {
-		/* background-color: grey; */
-	}
+
 
 	/* Display Dropdown when clicked on Parent Lable */
 	[id^=drop]:checked + ul {
@@ -615,14 +627,6 @@ nav ul ul li {
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    hyphenate-limit-chars: 9 3 3;
-  }
-
-  h1 {
-    font-size: 30px;
-    font-weight: 300;
-    text-align: center;
-    font-family: Wremena-light;
   }
 
 /*  #title-bar > h1 {
