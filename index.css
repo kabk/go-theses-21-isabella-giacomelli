@@ -709,6 +709,17 @@ nav ul ul li {
   font-weight: 300;
 }
 
+h2 {
+  font-family: Wremena-light;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  padding: 5%;
+}
+
 /*  #title-bar > h1 {
     font-size: 13px;
     width: 100%;
