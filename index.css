@@ -120,6 +120,10 @@ h1 {
   font-weight: 300;
 }
 
+h1:hover {
+  text-decoration: underline;
+}
+
 h2 {
   font-family: Wremena-light;
   font-style: italic;
@@ -228,7 +232,7 @@ table.Table tfoot td {
 100%{opacity: 1;}
 }*/
 
-.slide {
+.move {
   font-family: Arial Narrow,Arial,sans-serif;
     font-size: 50px;
     color: #fff9e3;
@@ -711,7 +715,7 @@ nav ul ul li {
     hyphens: auto;
   }
 
-  h1 {
+h1 {
   font-family: Wremena-light; 
   text-align: center;
   font-size: 25px;
@@ -719,6 +723,11 @@ nav ul ul li {
   padding: 0%;
   font-weight: 300;
 }
+
+h1:hover {
+  text-decoration: underline;
+}
+
 
 h2 {
   font-family: Wremena-light;
