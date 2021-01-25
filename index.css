@@ -406,7 +406,18 @@ table.Table tfoot td {
   margin-left: 10%;
 }
 
+.arrowsideleft {
+  height: 30px !important;
+  width: auto;
+  float: left;
+  padding-right: -10%;
+}
 
+.arrowsideright {
+  height: 30px !important;
+  width: auto;
+  float: right;
+}
 
 .slider {
   width: 100%;
