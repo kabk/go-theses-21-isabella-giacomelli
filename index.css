@@ -432,12 +432,21 @@ table.Table tfoot td {
   display: flex;
   overflow-x: auto;
 }
+
 .slide {
   width: 100%;
   flex-shrink: 0;
   height: auto;
   padding: 0px;
   overflow-x: auto;
+}
+
+.slide1 {
+  width: 80%;
+  flex-shrink: 0;
+  height: 100%;
+  padding: 0px;
+  overflow: none;
 }
 
 
