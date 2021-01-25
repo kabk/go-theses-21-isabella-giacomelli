@@ -699,6 +699,15 @@ nav ul ul li {
     hyphens: auto;
   }
 
+  h1 {
+  font-family: Wremena-light; 
+  text-align: center;
+  font-size: 25px;
+  text-indent: 0px;
+  padding: 0%;
+  font-weight: 300;
+}
+
 /*  #title-bar > h1 {
     font-size: 13px;
     width: 100%;
